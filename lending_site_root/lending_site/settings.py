@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'lending_site.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'orders',
+        'NAME': 'northwind',
         'USER': 'postgres',
         'PASSWORD': '123',
         'HOST': 'localhost',
